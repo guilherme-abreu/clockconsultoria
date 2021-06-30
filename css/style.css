@@ -33,3 +33,27 @@ body {
 footer p a {
     margin: 0px 0px;
 }
+
+.titulos-conteudos a {
+    text-decoration: none;
+}
+
+.titulos-conteudos h1 {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1200px) {
+    .links {
+        display: none;
+    }
+}
+
+
+
+/*
+#19577a
+#1f98e0
+#262626
+#a6a6a6
+*/
