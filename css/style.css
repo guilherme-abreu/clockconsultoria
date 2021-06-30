@@ -43,7 +43,7 @@ footer p a {
     color: black;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .links {
         display: none;
     }
