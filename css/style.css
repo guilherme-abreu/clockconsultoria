@@ -5,9 +5,31 @@ body {
 }
 
 .navbar {
-    background-color: #19577a;
+    background-color: #1f98e0;
+}
+
+.navbar .navbar-nav .nav-item {
+    font-size: 14pt;
 }
 
 .navbar .navbar-nav .nav-link {
     color: #ffffff;
+}
+
+#home {
+    color: white;
+}
+
+.conteudo {
+    background-color: yellow;
+    height: 200px;
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+    margin: 5px 15px;
 }
