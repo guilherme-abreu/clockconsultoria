@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+
+.navbar {
+    background-color: #19577a;
 }
 
 .navbar .navbar-nav .nav-link {
