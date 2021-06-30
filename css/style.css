@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
