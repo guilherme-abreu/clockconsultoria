@@ -146,7 +146,12 @@ footer p a {
     }
    
 }
-
+#home .botao-home a:hover {
+    color: #0d6efd;
+    background-color: white;
+    border-color: black;
+    font-weight: bold;
+}
 #home .botao-home:hover {
     color: #0d6efd;
     background-color: white;
@@ -154,17 +159,12 @@ footer p a {
     font-weight: bold;
 }
 
-#home .botao-home a {
+#home .botao-home .link-botao {
     text-decoration: none;
     color: white;
 }
 
-#home .botao-home a:hover {
-    color: #0d6efd;
-    background-color: white;
-    border-color: black;
-    font-weight: bold;
-}
+
 
 
 /*
