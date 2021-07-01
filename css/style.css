@@ -193,7 +193,9 @@ footer p a {
     }
 }
 
-
+#formulario {
+    display: none;
+}
 
 /*
 #19577a
