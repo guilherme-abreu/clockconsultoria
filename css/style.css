@@ -2,10 +2,11 @@
 
 body {
     font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
 }
 
 .navbar {
-    background-color: #1f98e0;
+    background-color: #0d6efd!important;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -18,6 +19,7 @@ body {
 
 #home {
     color: white;
+    background-color: background-color: rgba(0, 0, 0, 0.05);
 }
 
 .conteudo {
@@ -26,7 +28,7 @@ body {
 }
 
 .caixa {
-    padding: 60px 0;
+    padding: 30px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -40,7 +42,13 @@ footer p a {
 
 .titulos-conteudos h1 {
     text-decoration: none;
-    color: black;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.cabecalho h3 {
+    text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -49,8 +57,28 @@ footer p a {
     }
 }
 
+.equipe img {
+    border-radius: 112px;
+}
 
+.equipe h4 {
+    padding-top: 7px;
+    color: white;
+}
 
+.cor-equipe {
+    background-color: #0d6efd!important;
+}
+
+.equipe p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: white;
+}
+
+.texto-rodape {
+    font-weight: bold;
+}
 /*
 #19577a
 #1f98e0
