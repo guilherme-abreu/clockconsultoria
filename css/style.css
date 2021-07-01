@@ -146,6 +146,10 @@ footer p a {
     }
    
 }
+#home .botao-home .link-botao {
+    text-decoration: none;
+    color: white;
+}
 #home .botao-home a:hover {
     color: #0d6efd;
     background-color: white;
@@ -159,11 +163,38 @@ footer p a {
     font-weight: bold;
 }
 
-#home .botao-home .link-botao {
-    text-decoration: none;
-    color: white;
-}
+/*PARA COMPUTADORES GRANDES*/
 
+@media (min-width: 992px) {
+    #home h3 {
+        color: white;
+        background-color: #0d6efd!important;
+        font-size: 2.1em;
+        margin-top: 2em;
+    }
+    #home .botao-home {
+        text-decoration: none;
+        color: white;
+        background-color: #353839;
+        margin: 10px;
+        padding: 15px;
+        font-size: 18pt;
+        width: 70%;
+    }
+    #home .botao-home:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #353839;
+        margin: 10px;
+        padding: 15px;
+        font-size: 18pt;
+        width: 70%;
+    }
+    #home .botao-home a:hover {
+        background-color: #353839;
+        color: white;
+    }
+}
 
 
 
