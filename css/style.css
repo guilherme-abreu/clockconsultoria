@@ -114,6 +114,15 @@ footer p a {
     border-radius: 26px;
 }
 
+@media (max-width: 768px) {
+    .equipe .img-alterar img {
+        width: 8.5em;
+    }
+    .equipe p {
+        display: none;
+    }
+}
+
 /*
 #19577a
 #1f98e0
