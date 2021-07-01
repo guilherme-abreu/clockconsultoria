@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="" alt="Logo da Clock Consultoria"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -26,23 +26,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">HOME</a>
+            <a class="nav-link" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">QUEM SOMOS</a>
+            <a class="nav-link" href="#equipe">QUEM SOMOS</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#servicos" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               SERVIÇOS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Máquinas elétricas</a></li>
-              <li><a class="dropdown-item" href="#">Correção do fator de potência</a></li>
+              <li><a class="dropdown-item" href="#servicos">Máquinas elétricas</a></li>
+              <li><a class="dropdown-item" href="#servicos">Correção do fator de potência</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1">CONTATO</a>
+            <a class="nav-link" href="#contato" tabindex="-1">CONTATO</a>
           </li>
         </ul>
       </div>
@@ -54,13 +54,12 @@
       <div class="row">
 
         <div class="col-md-6">
-          <img src="img/Transparente .PNG" class="img-fluid" alt="Logo">
+          <img src="img/Transparente .PNG" id="imagem-cabecalho" class="img-fluid" alt="Logo">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
           <h3>Somos uma empresa nova no mercado e por isso tratamos seu problema com uma visão atual e inovadora.
           Dispomos de consultoria especializada para serviços relacionados à energia e correção do fator de potência.</h3>
-          <h2>Faça seu orçamento:</h2>
-          <button type="button" class="btn botao-home btn-success">Success</button>
+          <button type="button" class="btn botao-home btn-success text-center">Faça seu orçamento</button>
           </div>
           
       </div>
@@ -96,7 +95,7 @@
     </div>
   </section>
 
-  <section class="caixa cor-equipe">
+  <section id="equipe" class="caixa cor-equipe">
     <div class="container">
       <div class="row text-center titulos-conteudos">
         <a href="">
@@ -110,25 +109,25 @@
         <div class="col-md-2 col-sm-6 text-center img-alterar">
           <img src="img/andressa.jpg" alt="imagem" class="img-fluid">
           <h4 class="text-center">Andressa Sousa</h4>
-          <p>Diretora de Gestão de pessoas</p>
+          <p>Diretora de Gestão de Pessoas</p>
         </div>
         <div class="col-md-2 col-sm-6 text-center img-alterar">
           <img src="img/barbara.JPG" alt="imagem" class="img-fluid">
           <h4 class="text-center">Bárbara Emilly</h4>
-          <p>Diretora do Marketing</p>
+          <p>Diretora de Marketing</p>
         </div>
-        <div class="col-md-2 col-sm-4 text-center">
+        <div class="col-md-2 col-sm-4 text-center img-alterar">
           <img src="img/ellen.JPG" alt="imagem" class="img-fluid">
           <h4 class="text-center">Ellen Cindy</h4>
-          <p>Diretora do Administrativo</p>
+          <p>Diretora Administrativa</p>
         </div>
-        <div class="col-md-2 col-sm-4 text-center">
+        <div class="col-md-2 col-sm-4 text-center img-alterar">
           <img src="img/gerliane.jpeg" alt="imagem" class="img-fluid">
           <h4 class="text-center">Gerliane Chaves</h4>
           <p>Diretora Comercial</p>
 
         </div>
-        <div class="col-md-2 col-sm-4 text-center">
+        <div class="col-md-2 col-sm-4 text-center img-alterar">
           <img src="img/guilherme.jpg" alt="imagem" class="img-fluid">
           <h4 class="text-center">Guilherme Abreu</h4>
           <p>Diretor de Projetos</p>
@@ -143,7 +142,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light">
+  <footer id="contato" class="text-center text-lg-start bg-light">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
