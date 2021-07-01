@@ -36,7 +36,7 @@ body {
 }
 
 .caixa {
-    padding: 30px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -144,7 +144,11 @@ footer p a {
     #imagem-cabecalho {
         display: none;
     }
-   
+    .img-servicos {
+        border-radius: 15px;
+        margin-top: 0.5em;
+    }
+
 }
 #home .botao-home .link-botao {
     text-decoration: none;
@@ -195,6 +199,14 @@ footer p a {
 
 #formulario {
     display: none;
+}
+
+.img-servicos {
+    border-radius: 15px;
+}
+
+.logo-clock {
+    margin-right: 10px;
 }
 
 /*
