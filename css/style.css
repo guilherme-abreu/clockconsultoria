@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background-color: #0d6efd!important;
+    background-color: #0D6FC6!important;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -19,7 +19,14 @@ body {
 
 #home {
     color: white;
-    background-color: background-color: rgba(0, 0, 0, 0.05);
+    background-color:  #0d6efd!important;
+}
+
+#home h3 {
+    color: white;
+    background-color:  #0d6efd!important;
+    font-size: 2.1em;
+    margin-top: 1em;
 }
 
 .conteudo {
@@ -73,12 +80,40 @@ footer p a {
 .equipe p {
         margin-top: 0;
         margin-bottom: 1rem;
+        background-color: #0d6efd!important;
         color: white;
+}
+
+.equipe h4 {
+    background-color: #0d6efd!important;
+    color: white;
 }
 
 .texto-rodape {
     font-weight: bold;
 }
+
+#servicos h1 {
+    color: #0d6efd!important;
+    background-color:  white;
+
+}
+
+#servicos p, h4 {
+    color: black;
+    background-color:  white;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.botao-home {
+    background-color: #353839;
+    border-radius: 26px;
+}
+
 /*
 #19577a
 #1f98e0
